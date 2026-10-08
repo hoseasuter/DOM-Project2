@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#color-box {
+  width: 200px;
+  height: 200px;
+  background-color: #3498db;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  margin-bottom: 25px;
+  transition: background-color 0.3s ease;
+}
+#change-color-btn {
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #2ecc71;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  transition:
+    background-color 0.2s ease,
+    transform 0.1s ease;
+}
+#change-color-btn:hover {
+  background-color: #27ae60;
+}
+#change-color-btn:active {
+  transform: scale(0.97);
+}
